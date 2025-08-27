@@ -41,6 +41,7 @@ Follow these steps to configure the pipeline for your data.
 ### 1. File Structure
 
 Organize your project directory with the following structure. The pipeline will create all the sub-directories automatically.
+```
 proj_root/
 ├── 00_raw_data/
 │   └── *.fastq.gz   # Your raw sequencing files
@@ -53,7 +54,7 @@ proj_root/
 │   ├── default_adaptor.fa
 │   └── ...
 └── filelist.txt     # A list of your samples (see below)
-
+```
 ### 2. `filelist.txt`
 
 This file is crucial for the pipeline to identify and process your samples. It should be a tab-separated text file with the following columns:
