@@ -1,4 +1,4 @@
-# CUT&Tag Data Analysis Pipeline
+# CUT&Tag Data Analysis Pipeline on Taiwania3
 
 This repository contains an automated bioinformatics pipeline for processing CUT&Tag sequencing data. It takes raw sequencing files (FASTQ) and performs all essential steps, including quality control, read alignment, peak calling, and read quantification.
 
